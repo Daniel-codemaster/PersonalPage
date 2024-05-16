@@ -14,6 +14,9 @@
 		D4EDE6202BBED07E00A6CF4A /* Assignment1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EDE61F2BBED07E00A6CF4A /* Assignment1Tests.swift */; };
 		D4EDE62A2BBED07E00A6CF4A /* Assignment1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EDE6292BBED07E00A6CF4A /* Assignment1UITests.swift */; };
 		D4EDE62C2BBED07E00A6CF4A /* Assignment1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EDE62B2BBED07E00A6CF4A /* Assignment1UITestsLaunchTests.swift */; };
+		D4EDE63D2BBED3EA00A6CF4A /* AboutMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EDE63C2BBED3EA00A6CF4A /* AboutMeView.swift */; };
+		D4EDE63F2BBED45B00A6CF4A /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EDE63E2BBED45B00A6CF4A /* ContactView.swift */; };
+		D4EDE6412BBED4A400A6CF4A /* MyContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EDE6402BBED4A400A6CF4A /* MyContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		D4EDE6252BBED07E00A6CF4A /* Assignment1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4EDE6292BBED07E00A6CF4A /* Assignment1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1UITests.swift; sourceTree = "<group>"; };
 		D4EDE62B2BBED07E00A6CF4A /* Assignment1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4EDE63C2BBED3EA00A6CF4A /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
+		D4EDE63E2BBED45B00A6CF4A /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		D4EDE6402BBED4A400A6CF4A /* MyContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				D4EDE6102BBED07C00A6CF4A /* ContentView.swift */,
 				D4EDE6122BBED07D00A6CF4A /* Assets.xcassets */,
 				D4EDE6142BBED07D00A6CF4A /* Preview Content */,
+				D4EDE63C2BBED3EA00A6CF4A /* AboutMeView.swift */,
+				D4EDE63E2BBED45B00A6CF4A /* ContactView.swift */,
+				D4EDE6402BBED4A400A6CF4A /* MyContentView.swift */,
 			);
 			path = Assignment1;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4EDE63D2BBED3EA00A6CF4A /* AboutMeView.swift in Sources */,
 				D4EDE6112BBED07C00A6CF4A /* ContentView.swift in Sources */,
+				D4EDE63F2BBED45B00A6CF4A /* ContactView.swift in Sources */,
 				D4EDE60F2BBED07C00A6CF4A /* Assignment1App.swift in Sources */,
+				D4EDE6412BBED4A400A6CF4A /* MyContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
